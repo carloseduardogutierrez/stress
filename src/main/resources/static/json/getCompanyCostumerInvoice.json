@@ -1,0 +1,48 @@
+[
+  {
+    "empresa":{
+      "codigo":"ESUR",
+      "orden":1,
+      "tipoEmpresa":"",
+      "nombre":"EDESUR",
+      "tituloIdentificacion":"Nro.identificador cliente",
+      "permiteUsd":false,
+      "tipoPago":3,
+      "soloConsultas":false,
+      "permiteDobleFacturacion":false,
+      "importePermitido":0,
+      "codigoMoneda":1,
+      "datoAdicional":"",
+      "tarjetasPermitidas":[
+        "13",
+        "43"
+      ],
+      "montoMinimoTC":0.0,
+      "montoMaximoTC":0.0,
+      "longitudClaveMinima":8,
+      "longitudClaveMaxima":8,
+      "cuit":"           ",
+      "rubro":{
+        "idRubro":"ELEC",
+        "tipo":"0",
+        "nombre":"Electricidad"
+      },
+      "deudaEnLinea":false,
+      "permitePagosTCV":false,
+      "permitePagosTCM":false,
+      "permitePagosTCA":false,
+      "permitePagosTDV":true,
+      "permitePagosTDM":true,
+      "rubroID":"ELEC"
+    },
+    "idCliente":"00000001",
+    "vencimiento":"2020-02-02T03:00:00.000+0000",
+    "importe":900.0,
+    "moneda":32,
+    "idFactura":"0090313219064",
+    "otrasCuentas":false,
+    "descripcionPantalla":"EDESUR2018/07",
+    "vtoPagoAutomatico":"1",
+    "anual":false
+  }
+]

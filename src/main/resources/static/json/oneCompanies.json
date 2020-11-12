@@ -1,0 +1,54 @@
+{
+  "picture_url": "",
+  "recurrent_payment_types": [],
+  "allowed_amounts": [],
+  "currency_codes": [
+    {
+      "id": "ARS",
+      "name": "Pesos"
+    }
+  ],
+  "payment_methods": [
+    {
+      "id": "ccp",
+      "name": "Cuenta Corriente $",
+      "paymentTypeId": "bank_account"
+    },
+    {
+      "id": "cap",
+      "name": "Caja de Ahorro $",
+      "paymentTypeId": "bank_account"
+    },
+    {
+      "id": "tdv",
+      "name": "Tarjeta de Débito Visa",
+      "paymentTypeId": "debit_card"
+    },
+    {
+      "id": "tdm",
+      "name": "Tarjeta de Débito Maestro",
+      "paymentTypeId": "debit_card"
+    }
+  ],
+  "identification": {
+    "dataLabel": "Cod.pagos por redes(ptes)",
+    "additionalDataLabel": "",
+    "minLength": 0,
+    "maxLength": 0
+  },
+  "id": "ERHV",
+  "type": "G",
+  "name": "GCBA No Tributarios",
+  "cuit": "",
+  "order": 76,
+  "read_only": false,
+  "payment_type": 3,
+  "amount_type": 0,
+  "has_annual_billing": true,
+  "category": {
+    "id": "MCPS",
+    "type": "0",
+    "name": "Impuestos Municipales",
+    "order": 15
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": 7329,
+  "key": "9bd1228c-bee5-4f73-a74c-2780894144ae",
+  "masked_card_number": "4509XXXXXXXX0362",
+  "card_number": "4509790076210362",
+  "valid_thru": "01/21",
+  "alias": "",
+  "type": "CREDITO",
+  "payment_method_id": 42,
+  "payment_method_description": "VISA",
+  "bank": {
+    "id": 18,
+    "name": "BANCO SANTANDER",
+    "logo": "https://portal.prisma.redbee.io/app/images/bank/logo_072.jpg"
+  },
+  "brand": {
+    "id": 1,
+    "name": "Visa",
+    "logo": "https://portal.prisma.redbee.io/app/images/brand/VISA.png",
+    "cvv_logo": "https://portal.prisma.redbee.io/app/images/brand/cvv/cod-seg.png"
+  },
+  "decidir_id": 1,
+  "favorite": true,
+  "enabled": true,
+  "requires_cvv": false,
+  "operation": {
+    "installments": null,
+    "operationName": "SERVICIOS",
+    "brand": null,
+    "paymentMethod": [
+      42,
+      13
+    ]
+  }
+}

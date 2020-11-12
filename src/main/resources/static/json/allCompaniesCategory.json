@@ -1,0 +1,873 @@
+[
+  {
+    "picture_url": "/img/recargas/transporte/REDB.jpg",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 55.0,
+        "maxAllowedAmount": 222.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 55.0,
+        "maxAllowedAmount": 222.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Numero de cliente",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "REDB",
+    "type": "P",
+    "name": "ATOS  REDBUS  MENDOZA",
+    "cuit": "",
+    "order": 7,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "TRANSPORTE",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [
+      5.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0,
+      110.0,
+      120.0,
+      130.0,
+      140.0,
+      150.0,
+      200.0
+    ],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tca",
+        "name": "Tarjeta de Crédito American Express",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Codarea(sin 0)+nro(sin15)",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "RECL",
+    "type": "P",
+    "name": "Claro",
+    "cuit": "           ",
+    "order": 3,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "CELULAR",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "/img/recargas/prepago/DTVP.jpg",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 50.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 50.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tca",
+        "name": "Tarjeta de Crédito American Express",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 50.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Numero de tarjeta prepago",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "DTVP",
+    "type": "P",
+    "name": "Directv Prepago",
+    "cuit": "",
+    "order": 10,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "PREPAGOS",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "/img/recargas/celular/REMO.jpg",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [
+      5.0,
+      10.0,
+      20.0,
+      30.0,
+      50.0,
+      100.0,
+      150.0,
+      200.0,
+      250.0,
+      300.0,
+      350.0,
+      400.0,
+      450.0,
+      500.0
+    ],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tca",
+        "name": "Tarjeta de Crédito American Express",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Numero de telefono",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "REMO",
+    "type": "P",
+    "name": "Movistar",
+    "cuit": "           ",
+    "order": 2,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "CELULAR",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "/img/recargas/celular/REPE.jpg",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [
+      5.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0,
+      150.0,
+      200.0
+    ],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 20.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 20.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tca",
+        "name": "Tarjeta de Crédito American Express",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 20.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Numero de telefono",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "REPE",
+    "type": "T",
+    "name": "Personal",
+    "cuit": "           ",
+    "order": 1,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "CELULAR",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "",
+    "recurrent_payment_types": [],
+    "allowed_amounts": [],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Numero de tarjeta",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "KAPP",
+    "type": "P",
+    "name": "REDBUS Cordoba",
+    "cuit": "",
+    "order": 12,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "",
+    "recurrent_payment_types": [],
+    "allowed_amounts": [],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 55.0,
+        "maxAllowedAmount": 222.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 55.0,
+        "maxAllowedAmount": 222.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Numero de tarjeta",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "HHFW",
+    "type": "P",
+    "name": "REDBUS Tucuman",
+    "cuit": "",
+    "order": 12,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tca",
+        "name": "Tarjeta de Crédito American Express",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 5.0,
+        "maxAllowedAmount": 1000.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Codarea(sin 0)+nro(sin15)",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "AAAA",
+    "type": "P",
+    "name": "Recarga Claro",
+    "cuit": "",
+    "order": 3,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [
+      100.0,
+      200.0,
+      300.0,
+      400.0,
+      500.0
+    ],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tcv",
+        "name": "Tarjeta de Crédito Visa",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 0.0,
+        "maxAllowedAmount": -1.0
+      },
+      {
+        "id": "tcm",
+        "name": "Tarjeta de Crédito MasterCard",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 0.0,
+        "maxAllowedAmount": -1.0
+      },
+      {
+        "id": "tca",
+        "name": "Tarjeta de Crédito American Express",
+        "paymentTypeId": "credit_card",
+        "minAllowedAmount": 0.0,
+        "maxAllowedAmount": -1.0
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Numero de tarjeta",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "SUBE",
+    "type": "P",
+    "name": "SUBE",
+    "cuit": "",
+    "order": 5,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "TRANSPORTE",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "/img/recargas/celular/RENX.jpg",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [
+      5.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0,
+      110.0,
+      120.0,
+      130.0,
+      140.0,
+      150.0,
+      200.0
+    ],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Codarea(sin 0)+nro(sin15)",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "RENX",
+    "type": "P",
+    "name": "Servicios Radioeléctricos",
+    "cuit": "",
+    "order": 4,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "CELULAR",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  },
+  {
+    "picture_url": "",
+    "recurrent_payment_types": [
+      "SCHEDULED",
+      "MONTHLY_WEEKLY"
+    ],
+    "allowed_amounts": [
+      5.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0,
+      80.0,
+      90.0,
+      100.0,
+      110.0,
+      120.0,
+      130.0,
+      140.0,
+      150.0,
+      200.0
+    ],
+    "currency_codes": [
+      {
+        "id": "ARS",
+        "name": "Pesos"
+      }
+    ],
+    "payment_methods": [
+      {
+        "id": "ccp",
+        "name": "Cuenta Corriente $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "cap",
+        "name": "Caja de Ahorro $",
+        "paymentTypeId": "bank_account"
+      },
+      {
+        "id": "tdv",
+        "name": "Tarjeta de Débito Visa",
+        "paymentTypeId": "debit_card"
+      },
+      {
+        "id": "tdm",
+        "name": "Tarjeta de Débito Maestro",
+        "paymentTypeId": "debit_card"
+      }
+    ],
+    "identification": {
+      "dataLabel": "Codarea(sin 0)+nro(sin15)",
+      "additionalDataLabel": "",
+      "minLength": 0,
+      "maxLength": 0
+    },
+    "id": "QUAM",
+    "type": "P",
+    "name": "Tuenti",
+    "cuit": "",
+    "order": 9,
+    "read_only": false,
+    "payment_type": 1,
+    "amount_type": 2,
+    "recharge_type": "CELULAR",
+    "has_annual_billing": false,
+    "category": {
+      "id": "RCEL",
+      "type": "0",
+      "name": "Recargas",
+      "order": 24
+    }
+  }
+]

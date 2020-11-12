@@ -1,0 +1,320 @@
+[
+  {
+    "id": "5",
+    "type": "2",
+    "name": "Pasajes",
+    "order": 5
+  },
+  {
+    "id": "7",
+    "type": "2",
+    "name": "Subte",
+    "order": 2
+  },
+  {
+    "id": "8",
+    "type": "2",
+    "name": "Pulsos Telefonicos",
+    "order": 1
+  },
+  {
+    "id": "ADMC",
+    "type": "0",
+    "name": "Consorcios",
+    "order": 8
+  },
+  {
+    "id": "AFJP",
+    "type": "0",
+    "name": "AFJP Aportes Voluntarios",
+    "order": 3
+  },
+  {
+    "id": "AGUA",
+    "type": "0",
+    "name": "Agua",
+    "order": 4
+  },
+  {
+    "id": "ANBS",
+    "type": "1",
+    "name": "Bienes Personales",
+    "order": 64
+  },
+  {
+    "id": "ANGM",
+    "type": "1",
+    "name": "Ant. Gcia. Min.",
+    "order": 66
+  },
+  {
+    "id": "ANGS",
+    "type": "1",
+    "name": "Ganancias",
+    "order": 62
+  },
+  {
+    "id": "BPCT",
+    "type": "0",
+    "name": "Barrios Privados",
+    "order": 6
+  },
+  {
+    "id": "CBAS",
+    "type": "0",
+    "name": "Clubes y Asociaciones",
+    "order": 7
+  },
+  {
+    "id": "COMP",
+    "type": "0",
+    "name": "Compras",
+    "order": 34
+  },
+  {
+    "id": "COOP",
+    "type": "0",
+    "name": "Cooperativas",
+    "order": 9
+  },
+  {
+    "id": "DEIM",
+    "type": "1",
+    "name": "PFP 1384 IMPO",
+    "order": 73
+  },
+  {
+    "id": "DESS",
+    "type": "1",
+    "name": "PFP 1384 SSOC",
+    "order": 74
+  },
+  {
+    "id": "DGI",
+    "type": "1",
+    "name": "Autonomos",
+    "order": 5
+  },
+  {
+    "id": "DJBS",
+    "type": "1",
+    "name": "DJ Bs. Pers.",
+    "order": 63
+  },
+  {
+    "id": "DJGM",
+    "type": "1",
+    "name": "DJ Gcia. Min.",
+    "order": 65
+  },
+  {
+    "id": "DJGS",
+    "type": "1",
+    "name": "DJ Ganancias",
+    "order": 61
+  },
+  {
+    "id": "DJIV",
+    "type": "1",
+    "name": "DJ IVA",
+    "order": 60
+  },
+  {
+    "id": "DNCS",
+    "type": "0",
+    "name": "Donaciones",
+    "order": 10
+  },
+  {
+    "id": "DOAC",
+    "type": "1",
+    "name": "Servicio Domestico Activo",
+    "order": 71
+  },
+  {
+    "id": "DOJU",
+    "type": "1",
+    "name": "Servicio Domestico Jubilado",
+    "order": 72
+  },
+  {
+    "id": "DOME",
+    "type": "1",
+    "name": "Servicio Domestico Menor",
+    "order": 73
+  },
+  {
+    "id": "ELEC",
+    "type": "0",
+    "name": "Electricidad",
+    "order": 11
+  },
+  {
+    "id": "EMMD",
+    "type": "0",
+    "name": "Emergencias Medicas",
+    "order": 12
+  },
+  {
+    "id": "FAMC",
+    "type": "1",
+    "name": "PFP AUTON Y MONOTR CONCURSADOS.",
+    "order": 76
+  },
+  {
+    "id": "FPAM",
+    "type": "1",
+    "name": "PLAN F.PAGO AUTONOM Y MONOTR.",
+    "order": 75
+  },
+  {
+    "id": "GAS",
+    "type": "0",
+    "name": "Gas",
+    "order": 14
+  },
+  {
+    "id": "IEDU",
+    "type": "0",
+    "name": "Establecimientos Educativos",
+    "order": 13
+  },
+  {
+    "id": "ISP",
+    "type": "0",
+    "name": "Proveedores de Internet",
+    "order": 23
+  },
+  {
+    "id": "MCPS",
+    "type": "0",
+    "name": "Impuestos Municipales",
+    "order": 15
+  },
+  {
+    "id": "MDPG",
+    "type": "0",
+    "name": "Medicina Prepaga",
+    "order": 17
+  },
+  {
+    "id": "MOAU",
+    "type": "1",
+    "name": "Monotrib. Autonomo hasta 06/04",
+    "order": 69
+  },
+  {
+    "id": "MONU",
+    "type": "1",
+    "name": "Monotributo",
+    "order": 70
+  },
+  {
+    "id": "MOPF",
+    "type": "1",
+    "name": "Monotrib. Imposit. hasta 06/04",
+    "order": 68
+  },
+  {
+    "id": "PLAO",
+    "type": "0",
+    "name": "Planes de Ahorro",
+    "order": 21
+  },
+  {
+    "id": "PRTM",
+    "type": "0",
+    "name": "Prestamos",
+    "order": 22
+  },
+  {
+    "id": "PSEA",
+    "type": "1",
+    "name": "Impuestos AFIP (VEP)",
+    "order": 1
+  },
+  {
+    "id": "PTNS",
+    "type": "0",
+    "name": "Patentes",
+    "order": 20
+  },
+  {
+    "id": "RCEL",
+    "type": "0",
+    "name": "Recargas",
+    "order": 24
+  },
+  {
+    "id": "REGN",
+    "type": "0",
+    "name": "Registros Nacionales",
+    "order": 35
+  },
+  {
+    "id": "RNTS",
+    "type": "0",
+    "name": "Impuestos Provinciales",
+    "order": 16
+  },
+  {
+    "id": "SGDD",
+    "type": "0",
+    "name": "Seguridad",
+    "order": 25
+  },
+  {
+    "id": "SGRS",
+    "type": "0",
+    "name": "Seguros",
+    "order": 26
+  },
+  {
+    "id": "SGRT",
+    "type": "0",
+    "name": "Seguros de Retiro",
+    "order": 27
+  },
+  {
+    "id": "SGVD",
+    "type": "0",
+    "name": "Seguros de Vida",
+    "order": 28
+  },
+  {
+    "id": "SVAR",
+    "type": "0",
+    "name": "Otros Servicios",
+    "order": 19
+  },
+  {
+    "id": "TCIN",
+    "type": "0",
+    "name": "Tarjetas de Credito",
+    "order": 31
+  },
+  {
+    "id": "TLFN",
+    "type": "0",
+    "name": "Telefonia",
+    "order": 32
+  },
+  {
+    "id": "TVCB",
+    "type": "0",
+    "name": "Operadores de TV",
+    "order": 18
+  },
+  {
+    "id": "VTUR",
+    "type": "0",
+    "name": "Viajes y Turismo",
+    "order": 33
+  },
+  {
+    "id": "WSP",
+    "type": "0",
+    "name": "Servicios Web",
+    "order": 29
+  }
+]
