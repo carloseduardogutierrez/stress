@@ -36,7 +36,7 @@ public class TestController {
     }
 
     //no esta disponible
-    @PostMapping("/v1/pmc_services/core_services/subscriptions")
+    @PostMapping("/v1/pmc_services/core_services/subscriptions1")
     Object addAdhesion() {
         Resource resource = new ClassPathResource("/static/json/addAdhesion.json");
         try {
@@ -49,7 +49,7 @@ public class TestController {
     }
 
     //no esta disponible
-    @PostMapping("/v1/pmc_services/core_services/subscriptions")
+    @PostMapping("/v1/pmc_services/core_services/subscriptions2")
     Object modifyAdhesion() {
         Resource resource = new ClassPathResource("/static/json/modifyAdhesion.json");
         try {
@@ -61,7 +61,7 @@ public class TestController {
         return null;
     }
     //no esta disponible
-    @PostMapping("/v1/pmc_services/core_services/subscriptions")
+    @PostMapping("/v1/pmc_services/core_services/subscriptions3")
     Object deleteAdhesion() {
         Resource resource = new ClassPathResource("/static/json/deleteAdhesion.json");
         try {
