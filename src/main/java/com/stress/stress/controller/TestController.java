@@ -33,7 +33,6 @@ public class TestController {
         return null;
     }
 
-    //no esta disponible
     @PostMapping("/subscriptions")
     Object addAdhesion() {
         return true;
