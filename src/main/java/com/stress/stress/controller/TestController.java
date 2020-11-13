@@ -71,7 +71,7 @@ public class TestController {
         return null;
     }
 
-    @PostMapping("/v1/pmc_services/core_services/invoices_details")
+    @PostMapping("/invoices_details")
     Object getInquiryCompanyCustomerInvoice() {
         Resource resource = new ClassPathResource("/static/json/invoiceDetails.json");
         try {
