@@ -1,0 +1,24 @@
+{
+  "payment": {
+    "amount": 15.0,
+    "currency": "ARS",
+    "installments": "1",
+    "payment_date": "2020-11-13T18:14:18.000-0300",
+    "payment_caption": "COMPROBANTE VALIDO DE PAGO. CONSERVELO.",
+    "transaction_number": "5642",
+    "control_number": "4272",
+    "payment_method": "Visa Débito XXXX-4996"
+  },
+  "invoice": {
+    "currency": "ARS",
+    "company_id": "UNCF",
+    "company_name": "UNICEF",
+    "company_cuit": "20999999997",
+    "category_id": "DNCS",
+    "category_name": "Donaciones",
+    "customer_id": "35953267",
+    "amount": 15.0,
+    "screen_description": "COMPROBANTE VALIDO DE PAGO. CONSERVELO.",
+    "title_identification": "Numero de documento"
+  }
+}
