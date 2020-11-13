@@ -34,7 +34,7 @@ public class TestController {
     }
 
     @PostMapping("/subscriptions")
-    Object addAdhesion() {
+    Object getAllResponsesToSubscriptions() {
         return true;
     }
 
