@@ -1,0 +1,38 @@
+{
+  "invoices": [
+    {
+      "company": {
+        "name": "AYSA",
+        "id": "AYSA",
+        "type": "",
+        "cuit": "           ",
+        "identification_title": "Nro.identificador cliente",
+        "payment_type": "3",
+        "queries_only": false,
+        "allows_double_billing": false,
+        "allowed_amount": 0,
+        "currency": [
+          {
+            "id": "ARS",
+            "name": "Pesos"
+          }
+        ],
+        "additional_information": "",
+        "category": {
+          "id": "AGUA",
+          "type": "0",
+          "name": "Agua"
+        },
+        "help": "Para poder pagar a través de PagoMisCuentas.com, sólo deberá ingresar la clave \"Pago en Banelco\" (ubicada en el frente de la factura, dentro del recuadro de color celeste, sobre el margen superior derecho, junto a los datos del cliente) que consta de 10 dígitos. De esta forma, queda automáticamente relacionado el código ingresado a su clave de usuario, simplificando su operatoria en el futuro. Se puede pagar primer y segundo vencimiento. ",
+        "pmc_only": false
+      },
+      "client_id": "0038972011",
+      "due_date": "2020-11-23T03:00:00.000+0000",
+      "amount": 25.0,
+      "currency": "ARS",
+      "invoice_id": "38911779275",
+      "screen_description": "0002597201",
+      "annual": false
+    }
+  ]
+}

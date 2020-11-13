@@ -39,7 +39,7 @@ public class TestController {
     }
 
     @GetMapping("/{pathParam1}/categories/{pathParam2}/companies/{pathParam3}")
-    Object getCompanies() {
+    Object getOneCompany() {
         Resource resource = new ClassPathResource("/static/json/oneCompanies.json");
         try {
             return getObject(resource);
@@ -63,6 +63,17 @@ public class TestController {
     @GetMapping("/{pathParam1}/categories/{pathParam2}/companies")
     Object getAllCompaniesCategory() {
         Resource resource = new ClassPathResource("/static/json/allCompaniesCategory.json");
+        try {
+            return getObject(resource);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @PostMapping("/v1/pmc_services/core_services/invoices_details")
+    Object getInquiryCompanyCustomerInvoice() {
+        Resource resource = new ClassPathResource("/static/json/invoiceDetails.json");
         try {
             return getObject(resource);
         } catch (IOException e) {
