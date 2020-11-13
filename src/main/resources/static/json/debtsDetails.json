@@ -1,0 +1,38 @@
+{
+  "invoices": [
+    {
+      "company": {
+        "name": "Cablevisión",
+        "id": "CBVS",
+        "type": "",
+        "cuit": "           ",
+        "identification_title": "Referencia de pago",
+        "payment_type": "3",
+        "queries_only": false,
+        "allows_double_billing": false,
+        "allowed_amount": 2,
+        "currency": [
+          {
+            "id": "ARS",
+            "name": "Pesos"
+          }
+        ],
+        "additional_information": "",
+        "category": {
+          "id": "TVCB",
+          "type": "0",
+          "name": "Operadores de TV"
+        },
+        "help": "Para poder pagar a través de PagoMisCuentas.com, sólo deberá ingresar su \"Referencia de pago\" que consta de 10 u 8 dígitos. De esta forma, queda automáticamente relacionado el código ingresado a su clave de usuario, simplificando su operatoria en el futuro. aq\"Se puede pagar primer, segundo y tercer vencimiento. ",
+        "pmc_only": false
+      },
+      "client_id": "12345670",
+      "due_date": "2021-02-19T03:00:00.000+0000",
+      "amount": 51.5,
+      "currency": "ARS",
+      "invoice_id": "FACTURA7V",
+      "screen_description": "AUTOM-NO USAR",
+      "annual": false
+    }
+  ]
+}
