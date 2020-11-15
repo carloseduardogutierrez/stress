@@ -119,7 +119,7 @@ public class TestController {
 
     @PostMapping("/v1/pmc_services/core_services/login")
     Object makeLogin() {
-        Resource resource = new ClassPathResource("/static/json/token.json");
+        Resource resource = new ClassPathResource("/static/json/loginPmc.json");
         try {
             return getReturnObject(resource);
         } catch (IOException e) {
